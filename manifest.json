@@ -1,0 +1,27 @@
+{
+    "name": "Tatva",
+    "short_name": "TMS",
+    "description": "A dashboard for Tatva member to view announcements and get assigned tasks.",
+    "version": "1.0.0",
+    "author": "Manpreet Singh Sidhu",
+    "icons": [
+      {
+        "src": "image.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "image.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "orientation": "portrait",
+    "scope": "/",
+    "lang": "en-US"
+  }
+  

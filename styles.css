@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: #283618; /* Dark green background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fefae0; /* Light yellow text */
+}
+
+.login-container {
+    background: #606c38; /* Olive green background */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #fefae0; /* Light yellow for heading */
+}
+
+.login-container input[type="text"],
+.login-container input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #dda15e; /* Light brown border */
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background: #fefae0; /* Light yellow background for inputs */
+    color: #283618; /* Dark green text for input */
+}
+
+.login-container input[type="text"]:focus,
+.login-container input[type="password"]:focus {
+    border-color: #bc6c25; /* Darker orange border on focus */
+    outline: none;
+    box-shadow: 0 0 5px rgba(188, 108, 37, 0.5); /* Subtle focus glow */
+}
+
+.login-container button {
+    background: #bc6c25; /* Orange button */
+    color: #fff;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.login-container button:hover {
+    background: #dda15e; /* Lighter brown on hover */
+}
+
+.login-container button:active {
+    background: #606c38; /* Dark green on button press */
+}

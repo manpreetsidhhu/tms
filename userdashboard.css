@@ -1,0 +1,192 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background-color: #fefae0;
+  color: #283618;
+  line-height: 1.6;
+}
+
+.dashboard-container {
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #bc6c25;
+  color: #fefae0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+header a {
+  background: #dda15e;
+  color: #fefae0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+header a:hover {
+  scale: 1.05;
+}
+
+.task-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Announcements Section */
+.announcement {
+  background: #fefae0;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.announcement h2 {
+  color: #bc6c25;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.announcement p {
+  color: #606c38;
+}
+
+/* Tasks Section */
+.tasks {
+  margin-top: 20px;
+}
+
+.tasks h2 {
+  color: #bc6c25;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.task {
+  background: #fefae0;
+  border: 1px solid #606c38;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.task h3 {
+  font-size: 1.2rem;
+  color: #283618;
+}
+
+.task p {
+  color: #606c38;
+}
+
+.task small {
+  color: #606c38;
+  font-size: 0.9rem;
+}
+
+.task form {
+  margin-top: 15px;
+}
+
+.task button {
+  background: #283618;
+  color: #fefae0;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.task button:hover {
+  background: #606c38;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .task,
+  .announcement {
+    width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+}
+/* Announcements Section */
+.display-announcements {
+  margin-top: 30px;
+}
+
+.display-announcements h3 {
+  font-size: 1.8rem;
+  color: #bc6c25;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.announcement-card {
+  background-color: #fefae0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.announcement-message {
+  color: #283618;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.announcement-time {
+  color: #606c38;
+  font-size: 0.9rem;
+  font-style: italic;
+  text-align: right;
+}
+
+/* For responsive design */
+@media (max-width: 768px) {
+  .announcement-card {
+    padding: 15px;
+  }
+  .announcement-message {
+    font-size: 1.1rem;
+  }
+  .announcement-time {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .display-announcements h3 {
+    font-size: 1.5rem;
+  }
+  .announcement-message {
+    font-size: 1rem;
+  }
+  .announcement-time {
+    font-size: 0.75rem;
+  }
+}
